@@ -1,3 +1,6 @@
+require 'bundler'
+Bundler.require(:default)
+
 require 'thin'
 require 'sprockets'
 
