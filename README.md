@@ -1,8 +1,17 @@
 Basic setup for static heroku app
 ===========
 
-Gems:
+1. git clone https://github.com
+2. git remote set-url origin __git://your.other.repo.url>__
+3. bundle install
+
+
+
+Gems
+====
+
 * bundler
 * thin
 * sass
 * sprockets
+* compass
