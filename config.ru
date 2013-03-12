@@ -6,6 +6,7 @@ require 'sprockets'
 
 map '/assets' do
   environment = Sprockets::Environment.new
+	environment.append_path 'css'
   environment.append_path 'scripts'
   environment.append_path 'stylesheets'
   environment.append_path 'images'
